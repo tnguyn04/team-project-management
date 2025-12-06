@@ -52,6 +52,6 @@
 ### Settings
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(470).png)
 
-<h3 align="center">-------------END-------------</h3>
+<h3 align="center">------------- END -------------</h3>
 
 
