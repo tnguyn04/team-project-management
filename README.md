@@ -16,39 +16,22 @@
 
 ## Project screenshots
 **Create or join a project**
-![alt text](screenshots/Screenshot (469).png)
+![alt text](screenshots/Screenshot_469.png)
 
 **Home page**
-![alt text](<Screenshot (456).png>)
+
 
 **Project joined as a member**
-![alt text](<Screenshot (457).png>)
-
-![alt text](<Screenshot (458).png>)
-
-![alt text](<Screenshot (459).png>)
-
-![alt text](<Screenshot (460).png>)
 
 **Project joined as a leader**
-![alt text](<Screenshot (472).png>)
 
-![alt text](<Screenshot (462).png>)
-
-![alt text](<Screenshot (475).png>)
-
-![alt text](<Screenshot (471).png>)
-
-![alt text](<Screenshot (473).png>)
-
-![alt text](<Screenshot (474).png>)
 
 **Communicate via messages**
-![alt text](<Screenshot (467).png>)
+
 
 **Personal statistics**
-![alt text](<Screenshot (468).png>)
+
 
 **Settings**
-![alt text](<Screenshot (470).png>)
+
 
