@@ -19,36 +19,36 @@
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/9c881ac1dd530cea37c7278be0bb02ee8390e424/team_project_management/screenshots/Screenshot%20(469).png)
 
 **Home page**
-![alt text](<Screenshot (456).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(456).png)
 
 **Project joined as a member**
-![alt text](<Screenshot (457).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(457).png)
 
-![alt text](<Screenshot (458).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(458).png)
 
-![alt text](<Screenshot (459).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(459).png)
 
-![alt text](<Screenshot (460).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(460).png)
 
 **Project joined as a leader**
-![alt text](<Screenshot (472).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(472).png)
 
-![alt text](<Screenshot (462).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(462).png)
 
-![alt text](<Screenshot (475).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(475).png)
 
-![alt text](<Screenshot (471).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(471).png)
 
-![alt text](<Screenshot (473).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(473).png)
 
-![alt text](<Screenshot (474).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(474).png)
 
 **Communicate via messages**
-![alt text](<Screenshot (467).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(467).png)
 
 **Personal statistics**
-![alt text](<Screenshot (468).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(468).png)
 
 **Settings**
-![alt text](<Screenshot (470).png>)
+![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(470).png)
 
