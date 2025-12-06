@@ -16,7 +16,7 @@
 
 ## Project screenshots
 **Create or join a project**
-![alt text](<Screenshot (469).png>)
+![alt text](screenshots/Screenshot (469).png)
 
 **Home page**
 ![alt text](<Screenshot (456).png>)
