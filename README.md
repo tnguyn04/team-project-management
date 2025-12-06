@@ -21,6 +21,8 @@
 ### Home page
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(456).png)
 
+![alt text](https://github.com/tnguyn04/team-project-management/blob/7088c17905e6725b3fcf4b734ff5e576a2b34c5f/team_project_management/screenshots/Screenshot%20(494).png)
+
 ### Project joined as a member
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(457).png)
 
