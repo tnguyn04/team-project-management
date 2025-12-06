@@ -15,13 +15,13 @@
 - Password: 11111
 
 ## Project screenshots
-**Create or join a project**
+### Create or join a project
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/9c881ac1dd530cea37c7278be0bb02ee8390e424/team_project_management/screenshots/Screenshot%20(469).png)
 
-**Home page**
+### Home page
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(456).png)
 
-**Project joined as a member**
+### Project joined as a member
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(457).png)
 
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(458).png)
@@ -30,7 +30,7 @@
 
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(460).png)
 
-**Project joined as a leader**
+### Project joined as a leader
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(472).png)
 
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(462).png)
@@ -43,12 +43,12 @@
 
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(474).png)
 
-**Communicate via messages**
+### Communicate via messages
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(467).png)
 
-**Personal statistics**
+### Personal statistics
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(468).png)
 
-**Settings**
+### Settings
 ![alt text](https://github.com/tnguyn04/team-project-management/blob/1829a23681417dea40380a1a3eac9729d4f50d1b/team_project_management/screenshots/Screenshot%20(470).png)
 
