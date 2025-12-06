@@ -1,0 +1,13 @@
+<?php
+    if(isset($_GET['page'])){
+        $temp=$_GET['page'];
+    }else{
+        $temp='';
+    }
+    if($temp=='register'){
+        include("main/register.php");
+    }
+    else{
+        include("main/login.php");
+    }
+?>
