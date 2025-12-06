@@ -16,7 +16,6 @@
 
 ## Project screenshots
 **Create or join a project**
-![alt text](screenshots/Screenshot_469.png)
 
 **Home page**
 
