@@ -13,7 +13,7 @@ $selected = isset($_GET['page']) ? $_GET['page'] : 'home';
 	<section id="sidebar">
 		<a href="#" class="brand">
 			<i class='bx bxs-smile'></i>
-			<span class="text">Project Management</span>
+			<span class="text">Team Project Management</span>
 		</a>
 		<ul class="side-menu top">
 			<li class="<?php echo $selected == 'home' ? 'active' : ''; ?>">
