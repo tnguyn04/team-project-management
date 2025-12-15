@@ -59,6 +59,21 @@ if (isset($_POST['post-public'])) {
         echo json_encode(['status' => 'success']);
     }
     exit;
+} elseif(isset($_POST['delete_prj'])){
+    $sql = "DELETE FROM duan WHERE IDDuAn = $id_project LIMIT 1";
+    if(mysqli_query($mysqli, $sql)){
+        echo json_encode(['status' => 'success']);
+    }
+    exit;
+} elseif(isset($_POST['out_prj'])){
+    $userId = $_POST['id_user'];
+    $groupId = $_POST['id_group'];
+    $sql = "DELETE FROM thanhvienduan WHERE IDDuAn = $id_project AND IDNguoiDung = $userId LIMIT 1";
+    $sql_gr = "DELETE FROM thanhviennhom WHERE IDNguoiDung = $userId AND IDNhom = $groupId LIMIT 1";
+    if(mysqli_query($mysqli, $sql) && mysqli_query($mysqli, $sql_gr)){
+        echo json_encode(['status' => 'success']);
+    }
+    exit;
 }
 
 
@@ -209,6 +224,8 @@ if(isset($_POST['IDNop'], $_POST['rating'])){
     mysqli_query($mysqli, $sql);
     
 }
+
+
 
 
 

@@ -229,3 +229,44 @@ $('.rating i').on('click', function(){
 });
 
 
+$('.delete-prj').on('click', function(){
+    $.ajax({
+        url: './pages/processing/project_ajax.php',
+        type: 'POST',
+        data: {
+            delete_prj: true,
+            id_project: id_project 
+        },
+        dataType: 'json',
+        success: function(res){
+            if(res.status === "success"){
+                window.location.href = '/team_project_management/team_project_management/home.php?page=project';
+            }
+            
+        }
+        
+    });
+});
+
+$('.out-prj').on('click', function(){
+    let userId = $(this).data('user');
+    let groupId = $(this).data('group');
+    $.ajax({
+        url: './pages/processing/project_ajax.php',
+        type: 'POST',
+        data: {
+            out_prj: true,
+            id_project: id_project,
+            id_user : userId,
+            id_group : groupId
+        },
+        dataType: 'json',
+        success: function(res){
+            if(res.status === "success"){
+                window.location.href = '/team_project_management/team_project_management/home.php?page=project';
+            }
+            
+        }
+        
+    });
+});

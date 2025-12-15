@@ -14,7 +14,20 @@ $row_project = mysqli_fetch_assoc($query_project);
         <div class="card-header">
             <h3 id="projectName"><?php echo $row_project['TenDuAn'] ?></h3>
             <?php if($role === 'leader'): ?> 
-            <button class="edit-prj-btn" id="editToggle"><i class='bx bxs-edit'></i></button>
+                <div>
+                    <button class="edit-prj-btn" id="editToggle"><i class='bx bxs-edit'></i></button>
+                    <button class="edit-prj-btn delete-prj" id="delete-prj"><i class='bx bxs-trash'></i></button>
+                </div>
+            <?php endif; ?>
+            <?php if($role === 'member'): ?> 
+                <?php
+                $sql_getIDNhom = "SELECT * FROM nhom where IDNhom = $id_project";
+                $query_getIDNhom = mysqli_query($mysqli, $sql_getIDNhom);
+                $row_getIDNhom = mysqli_fetch_assoc($query_getIDNhom);
+                ?>
+                <div>
+                    <button class="edit-prj-btn out-prj" data-user="<?= $user_id ?>" data-group="<?= $row_getIDNhom['IDNhom'] ?>"><i class='bx bx-arrow-from-left'></i></button>
+                </div>
             <?php endif; ?>
         </div>
 

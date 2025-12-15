@@ -1213,6 +1213,10 @@ input[type=number] {
     gap: 6px;
 }
 
+.delete-prj {
+	margin-top: 6px;
+}
+
 .edit-prj-btn:hover {
     background: var(--primary);
     color: white;
