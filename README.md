@@ -8,7 +8,7 @@
 5. Open **phpMyAdmin** in your browser: [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
 6. Create a new database named `quanlyduan`.
 7. Import the **SQL file** included in the project.
-8. Open the project in your browser: [http://localhost/team-project-management](http://localhost/team_project_management).
+8. Open the project in your browser: [http://localhost/team_project_management](http://localhost/team_project_management).
 
 ### Test account: 
 - Email: `nguyennn1701@gmail.com`
