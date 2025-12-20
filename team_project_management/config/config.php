@@ -12,7 +12,7 @@ CREATE EVENT IF NOT EXISTS update_congviec_trangthai
 ON SCHEDULE EVERY 1 MINUTE
 STARTS CURRENT_TIMESTAMP
 DO
-UPDATE congviec SET TrangThai = 0 
+UPDATE quanlyduan.congviec SET TrangThai = 0 
 WHERE NgayKetThuc < NOW() AND TrangThai IS NULL
 ";
 $mysqli->query($sql);

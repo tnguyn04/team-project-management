@@ -59,7 +59,7 @@
             </label>
             
 
-            <input type="text" name="message" id="chatMessage" placeholder="Nhập tin nhắn...">
+            <input type="text" name="message" id="chatMessage" placeholder="Nhập tin nhắn..." required>
 
             <button type="submit"><i class='bx bx-send'></i></button>
         </form>
