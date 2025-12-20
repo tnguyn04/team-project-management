@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 15, 2025 lúc 06:05 PM
+-- Thời gian đã tạo: Th12 20, 2025 lúc 06:18 AM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.0.30
 
@@ -51,7 +51,7 @@ INSERT INTO `congviec` (`IDCongViec`, `NoiDung`, `TepDinhKem`, `NgayBatDau`, `Ng
 (8, 'Kiểm tra lỗi thanh toán khi khách hàng thanh toán qua thẻ tín dụng, fix bug và test.', '4551050144_contract.txt', '2025-11-28 03:08:00', '2025-12-28 03:08:00', NULL, 2, 1),
 (9, 'Thêm các sản phẩm mới vào hệ thống, kiểm tra đầy đủ thông tin, hình ảnh, giá cả.', NULL, '2025-12-02 03:08:00', '2025-12-06 03:09:00', b'1', 2, 1),
 (10, 'Cập nhật số lượng kho hàng, kiểm tra sản phẩm hết hàng, nhập dữ liệu mới vào hệ thống.', NULL, '2025-12-01 03:09:00', '2025-12-03 00:09:00', b'0', 2, 1),
-(13, 'Thiết kế cơ sở dữ liệu: sản phẩm, khách hàng, đơn hàng, tồn kho', 'student-mat.csv', '2025-12-03 06:27:00', '2025-12-26 01:27:00', NULL, 1, 2),
+(13, 'Thiết kế cơ sở dữ liệu: sản phẩm, khách hàng, đơn hàng, tồn kho', 'student-mat.csv', '2025-12-03 06:27:00', '2025-12-26 01:27:00', b'0', 1, 2),
 (14, 'Tạo giao diện thống kê biểu đồ doanh thu', NULL, '2025-12-11 01:28:00', '2025-12-31 01:28:00', NULL, 1, 3),
 (15, 'Triển khai hệ thống lên server và chạy thử nghiệm', 'Bai thuc hanh so 8.pdf', '2025-12-06 03:30:00', '2025-12-14 01:30:00', b'0', 1, 7),
 (16, 'Kiểm thử toàn bộ hệ thống (unit test + test giao diện)', NULL, '2025-12-02 05:31:00', '2025-12-04 01:31:00', b'1', 1, 7),
@@ -60,7 +60,7 @@ INSERT INTO `congviec` (`IDCongViec`, `NoiDung`, `TepDinhKem`, `NgayBatDau`, `Ng
 (19, 'Thiết kế giao diện trang đăng nhập & đăng ký', NULL, '2025-11-14 01:43:00', '2025-12-21 01:43:00', b'1', 8, 1),
 (20, 'Thiết kế cơ sở dữ liệu: Users, Products, Orders, Cart, Payments', 'jquery-3.7.1.min.js', '2025-12-05 01:55:00', '2025-12-09 01:55:00', b'0', 2, 1),
 (21, 'Xây dựng API đăng ký / đăng nhập và phân quyền người dùng', NULL, '2025-12-06 01:56:00', '2025-12-14 01:56:00', b'0', 2, 1),
-(22, 'Tích hợp thanh toán online và xác nhận đơn hàng', NULL, '2025-12-05 01:57:00', '2025-12-19 01:57:00', NULL, 2, 1),
+(22, 'Tích hợp thanh toán online và xác nhận đơn hàng', NULL, '2025-12-05 01:57:00', '2025-12-19 01:57:00', b'0', 2, 1),
 (23, 'Tạo giao diện quản lý đơn hàng cho admin', '1763396421_Financial Sample (3).xlsx', '2025-12-13 01:57:00', '2025-12-25 01:57:00', NULL, 2, 1),
 (24, 'Kiểm thử chức năng đặt hàng và thanh toán', NULL, '2025-12-20 01:58:00', '2025-12-31 01:58:00', NULL, 2, 1);
 
@@ -217,7 +217,6 @@ CREATE TABLE `thanhvienduan` (
 INSERT INTO `thanhvienduan` (`IDDuAn`, `IDNguoiDung`, `TrangThai`, `NgayThamGia`) VALUES
 (1, 2, 'approved', '2025-12-02 01:31:13'),
 (1, 3, 'approved', '2025-12-02 01:24:57'),
-(1, 7, 'approved', '2025-12-03 01:29:56'),
 (2, 1, 'approved', '2025-12-02 01:21:46'),
 (2, 3, 'approved', '2025-12-02 03:19:13'),
 (8, 1, 'approved', '2025-12-03 01:23:53');
@@ -242,7 +241,6 @@ INSERT INTO `thanhviennhom` (`IDNhom`, `IDNguoiDung`, `NgayThamGia`) VALUES
 (1, 1, '2025-12-02 01:19:08'),
 (1, 2, '2025-12-02 01:31:13'),
 (1, 3, '2025-12-02 01:24:57'),
-(1, 7, '2025-12-03 01:29:56'),
 (2, 1, '2025-12-02 01:21:46'),
 (2, 2, '2025-12-02 01:21:25'),
 (2, 3, '2025-12-02 03:19:13'),
@@ -400,13 +398,13 @@ ALTER TABLE `congviec`
 -- AUTO_INCREMENT cho bảng `congviecdanop`
 --
 ALTER TABLE `congviecdanop`
-  MODIFY `IDNop` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `IDNop` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT cho bảng `duan`
 --
 ALTER TABLE `duan`
-  MODIFY `IDDuAn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `IDDuAn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT cho bảng `nguoidung`
@@ -418,19 +416,19 @@ ALTER TABLE `nguoidung`
 -- AUTO_INCREMENT cho bảng `nhom`
 --
 ALTER TABLE `nhom`
-  MODIFY `IDNhom` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `IDNhom` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT cho bảng `thongbao`
 --
 ALTER TABLE `thongbao`
-  MODIFY `IDThongBao` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `IDThongBao` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT cho bảng `tinnhan`
 --
 ALTER TABLE `tinnhan`
-  MODIFY `IDTinNhan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `IDTinNhan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
@@ -499,7 +497,7 @@ DELIMITER $$
 --
 -- Sự kiện
 --
-CREATE DEFINER=`root`@`localhost` EVENT `update_congviec_trangthai` ON SCHEDULE EVERY 1 MINUTE STARTS '2025-11-30 23:39:46' ON COMPLETION NOT PRESERVE ENABLE DO UPDATE congviec SET TrangThai = 0 
+CREATE DEFINER=`root`@`localhost` EVENT `update_congviec_trangthai` ON SCHEDULE EVERY 1 MINUTE STARTS '2025-12-20 12:09:29' ON COMPLETION NOT PRESERVE ENABLE DO UPDATE quanlyduan.congviec SET TrangThai = 0 
 WHERE NgayKetThuc < NOW() AND TrangThai IS NULL$$
 
 DELIMITER ;
